@@ -1,0 +1,65 @@
+2024-06-26T22:43:58.874+05:30  INFO 5296 --- [CalculateAPI] [restartedMain] com.org.CalculateApiApplication          : Starting CalculateApiApplication using Java 21.0.3 with PID 5296 (C:\Users\nikhil.shinde\Downloads\CalculateAPI\bin\main started by nikhil.shinde in C:\Users\nikhil.shinde\Downloads\CalculateAPI)
+2024-06-26T22:43:58.881+05:30  INFO 5296 --- [CalculateAPI] [restartedMain] com.org.CalculateApiApplication          : No active profile set, falling back to 1 default profile: "default"
+2024-06-26T22:43:59.016+05:30  INFO 5296 --- [CalculateAPI] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-06-26T22:43:59.017+05:30  INFO 5296 --- [CalculateAPI] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-06-26T22:44:02.451+05:30  INFO 5296 --- [CalculateAPI] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9090 (http)
+2024-06-26T22:44:02.484+05:30  INFO 5296 --- [CalculateAPI] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-06-26T22:44:02.484+05:30  INFO 5296 --- [CalculateAPI] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-06-26T22:44:02.628+05:30  INFO 5296 --- [CalculateAPI] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-06-26T22:44:02.629+05:30  INFO 5296 --- [CalculateAPI] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3610 ms
+2024-06-26T22:44:03.524+05:30 DEBUG 5296 --- [CalculateAPI] [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 8 mappings in 'requestMappingHandlerMapping'
+2024-06-26T22:44:03.796+05:30 DEBUG 5296 --- [CalculateAPI] [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**, /swagger-ui*/*swagger-initializer.js, /swagger-ui*/**] in 'resourceHandlerMapping'
+2024-06-26T22:44:03.889+05:30 DEBUG 5296 --- [CalculateAPI] [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2024-06-26T22:44:04.008+05:30 DEBUG 5296 --- [CalculateAPI] [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2024-06-26T22:44:04.346+05:30  INFO 5296 --- [CalculateAPI] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-06-26T22:44:04.469+05:30  INFO 5296 --- [CalculateAPI] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 9090 (http) with context path '/'
+2024-06-26T22:44:04.507+05:30  INFO 5296 --- [CalculateAPI] [restartedMain] com.org.CalculateApiApplication          : Started CalculateApiApplication in 6.592 seconds (process running for 7.726)
+2024-06-26T22:44:21.060+05:30  INFO 5296 --- [CalculateAPI] [http-nio-9090-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-26T22:44:21.061+05:30  INFO 5296 --- [CalculateAPI] [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-06-26T22:44:21.061+05:30 DEBUG 5296 --- [CalculateAPI] [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2024-06-26T22:44:21.061+05:30 DEBUG 5296 --- [CalculateAPI] [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
+2024-06-26T22:44:21.062+05:30 DEBUG 5296 --- [CalculateAPI] [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Detected FixedThemeResolver
+2024-06-26T22:44:21.063+05:30 DEBUG 5296 --- [CalculateAPI] [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@7096da5
+2024-06-26T22:44:21.064+05:30 DEBUG 5296 --- [CalculateAPI] [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@228c3149
+2024-06-26T22:44:21.065+05:30 DEBUG 5296 --- [CalculateAPI] [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2024-06-26T22:44:21.065+05:30  INFO 5296 --- [CalculateAPI] [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+2024-06-26T22:44:21.166+05:30 DEBUG 5296 --- [CalculateAPI] [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/swagger-ui/swagger-initializer.js", parameters={}
+2024-06-26T22:44:21.255+05:30 DEBUG 5296 --- [CalculateAPI] [http-nio-9090-exec-1] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+2024-06-26T22:44:21.756+05:30 DEBUG 5296 --- [CalculateAPI] [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-06-26T22:44:21.780+05:30 DEBUG 5296 --- [CalculateAPI] [http-nio-9090-exec-10] o.s.web.servlet.DispatcherServlet        : GET "/v3/api-docs/swagger-config", parameters={}
+2024-06-26T22:44:21.785+05:30 DEBUG 5296 --- [CalculateAPI] [http-nio-9090-exec-10] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springdoc.webmvc.ui.SwaggerConfigResource#openapiJson(HttpServletRequest)
+2024-06-26T22:44:21.843+05:30 DEBUG 5296 --- [CalculateAPI] [http-nio-9090-exec-10] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json]
+2024-06-26T22:44:21.848+05:30 DEBUG 5296 --- [CalculateAPI] [http-nio-9090-exec-10] m.m.a.RequestResponseBodyMethodProcessor : Writing [{configUrl=/v3/api-docs/swagger-config, oauth2RedirectUrl=http://localhost:9090/swagger-ui/oauth2-re (truncated)...]
+2024-06-26T22:44:21.870+05:30 DEBUG 5296 --- [CalculateAPI] [http-nio-9090-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-06-26T22:44:21.947+05:30 DEBUG 5296 --- [CalculateAPI] [http-nio-9090-exec-9] o.s.web.servlet.DispatcherServlet        : GET "/v3/api-docs", parameters={}
+2024-06-26T22:44:21.951+05:30 DEBUG 5296 --- [CalculateAPI] [http-nio-9090-exec-9] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springdoc.webmvc.api.OpenApiWebMvcResource#openapiJson(HttpServletRequest, String, Locale)
+2024-06-26T22:44:22.535+05:30  INFO 5296 --- [CalculateAPI] [http-nio-9090-exec-9] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 556 ms
+2024-06-26T22:44:22.923+05:30 DEBUG 5296 --- [CalculateAPI] [http-nio-9090-exec-9] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [application/json, */*] and supported [application/json]
+2024-06-26T22:44:22.928+05:30 DEBUG 5296 --- [CalculateAPI] [http-nio-9090-exec-9] m.m.a.RequestResponseBodyMethodProcessor : Writing [{123, 34, 111, 112, 101, 110, 97, 112, 105, 34, 58, 34, 51, 46, 48, 46, 49, 34, 44, 34, 105, 110, 10 (truncated)...]
+2024-06-26T22:44:22.934+05:30 DEBUG 5296 --- [CalculateAPI] [http-nio-9090-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-06-26T22:44:43.448+05:30 DEBUG 5296 --- [CalculateAPI] [http-nio-9090-exec-8] o.s.web.servlet.DispatcherServlet        : POST "/calculate?number=10", parameters={masked}
+2024-06-26T22:44:43.452+05:30 DEBUG 5296 --- [CalculateAPI] [http-nio-9090-exec-8] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.org.controller.CalculationController#calculate(int)
+2024-06-26T22:44:43.461+05:30  INFO 5296 --- [CalculateAPI] [http-nio-9090-exec-8] c.org.controller.CalculationController   : Received request to calculate for number: 10
+2024-06-26T22:44:43.467+05:30  INFO 5296 --- [CalculateAPI] [pool-1-thread-1] com.org.services.ApplicationService      : Square of 10: 100
+2024-06-26T22:44:43.469+05:30  INFO 5296 --- [CalculateAPI] [http-nio-9090-exec-8] c.org.controller.CalculationController   : Calculation tasks submitted for number: 10
+2024-06-26T22:44:43.469+05:30  INFO 5296 --- [CalculateAPI] [pool-1-thread-2] com.org.services.ApplicationService      : Cube of 10: 1000
+2024-06-26T22:44:43.472+05:30 DEBUG 5296 --- [CalculateAPI] [http-nio-9090-exec-8] m.m.a.RequestResponseBodyMethodProcessor : Using 'text/plain', given [*/*] and supported [text/plain, */*, application/json, application/*+json]
+2024-06-26T22:44:43.473+05:30 DEBUG 5296 --- [CalculateAPI] [http-nio-9090-exec-8] m.m.a.RequestResponseBodyMethodProcessor : Writing ["Calculations initiated for number: 10"]
+2024-06-26T22:44:43.481+05:30 DEBUG 5296 --- [CalculateAPI] [http-nio-9090-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-06-26T22:44:43.485+05:30  INFO 5296 --- [CalculateAPI] [pool-1-thread-3] com.org.services.ApplicationService      : 10 is even: true
+2024-06-26T22:44:43.489+05:30  INFO 5296 --- [CalculateAPI] [pool-1-thread-4] com.org.services.ApplicationService      : 10 is prime: false
+2024-06-26T22:44:43.492+05:30  INFO 5296 --- [CalculateAPI] [pool-1-thread-5] com.org.services.ApplicationService      : 10 is Armstrong: false
+2024-06-26T22:44:43.494+05:30  INFO 5296 --- [CalculateAPI] [pool-1-thread-6] com.org.services.ApplicationService      : 10 is palindrome: false
+2024-06-26T22:44:43.494+05:30  INFO 5296 --- [CalculateAPI] [pool-1-thread-7] com.org.services.ApplicationService      : Factorial of 10: 3628800
+2024-06-26T22:44:43.498+05:30  INFO 5296 --- [CalculateAPI] [pool-1-thread-8] com.org.services.ApplicationService      : Reverse of 10: 1
+2024-06-26T22:59:52.580+05:30  INFO 5276 --- [CalculateAPI] [main] com.org.controller.MyControllerTest      : Starting MyControllerTest using Java 21.0.3 with PID 5276 (started by nikhil.shinde in C:\Users\nikhil.shinde\Downloads\CalculateAPI)
+2024-06-26T22:59:52.584+05:30  INFO 5276 --- [CalculateAPI] [main] com.org.controller.MyControllerTest      : No active profile set, falling back to 1 default profile: "default"
+2024-06-26T22:59:52.649+05:30 DEBUG 5276 --- [CalculateAPI] [main] o.s.w.c.s.GenericWebApplicationContext   : Refreshing org.springframework.web.context.support.GenericWebApplicationContext@7d61eccf
+2024-06-26T22:59:55.981+05:30 DEBUG 5276 --- [CalculateAPI] [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 8 mappings in 'requestMappingHandlerMapping'
+2024-06-26T22:59:56.232+05:30 DEBUG 5276 --- [CalculateAPI] [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**, /swagger-ui*/*swagger-initializer.js, /swagger-ui*/**] in 'resourceHandlerMapping'
+2024-06-26T22:59:56.310+05:30 DEBUG 5276 --- [CalculateAPI] [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2024-06-26T22:59:56.387+05:30 DEBUG 5276 --- [CalculateAPI] [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2024-06-26T22:59:56.731+05:30  INFO 5276 --- [CalculateAPI] [main] com.org.controller.MyControllerTest      : Started MyControllerTest in 4.903 seconds (process running for 7.278)
+2024-06-26T22:59:59.608+05:30  INFO 5276 --- [CalculateAPI] [main] c.org.controller.CalculationController   : Received request to calculate for number: 10
+2024-06-26T22:59:59.638+05:30 ERROR 5276 --- [CalculateAPI] [main] c.org.controller.CalculationController   : Exception occurred while performing calculations for number 10: Calculation error
+2024-06-26T22:59:59.836+05:30 DEBUG 5276 --- [CalculateAPI] [SpringApplicationShutdownHook] o.s.w.c.s.GenericWebApplicationContext   : Closing org.springframework.web.context.support.GenericWebApplicationContext@7d61eccf, started on Wed Jun 26 22:59:52 IST 2024
