@@ -1,4 +1,4 @@
-# Calculation API
+# Calculate API
 
 This project is a REST API built using Spring Boot to perform various calculations on integers (0 to 9999). The calculations include finding the square, cube, checking if the number is even or odd, prime, Armstrong, palindrome, factorial, and reversing the number. Each calculation is performed using multithreading with different tasks for each calculation implemented using `Executor framework`.
 
@@ -23,7 +23,7 @@ This project is a REST API built using Spring Boot to perform various calculatio
 
 1. **Clone the repository**:
     
-    git clone https://github.com/nikhilshinde95/Task2_26-06-2024.git
+    git clone https://github.com/nikhilshinde95/Task3_26-06-2024.git
     cd calculation-api
     
 
