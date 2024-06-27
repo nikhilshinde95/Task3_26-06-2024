@@ -12,10 +12,10 @@ public class ApplicationService {
 
     private static final Logger log = LoggerFactory.getLogger(ApplicationService.class);
 
-    // ExecutorService with a fixed thread pool of size 8
+    
     private final ExecutorService executor = Executors.newFixedThreadPool(8);
 
-    // Method to perform all calculation tasks asynchronously
+ 
     public void performCalculations(int number) {
         executor.submit(() -> calculateSquare(number));
         executor.submit(() -> calculateCube(number));
